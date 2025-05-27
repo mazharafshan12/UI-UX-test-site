@@ -5,12 +5,15 @@
 }
 
 html, body {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: url('background.jpg') no-repeat center center fixed;
+  background-color: #000; /* Fill behind image */
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: contain;
-  background-color: #000;
 }
 
 /* Header */
